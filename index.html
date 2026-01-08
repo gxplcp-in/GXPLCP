@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body { background: #000; color: #4285F4; text-align: center; font-family: sans-serif; overflow: hidden; }
+        
+        /* आपकी जादुई लहरें */
+        .wave { position: absolute; width: 200%; height: 200%; background: radial-gradient(circle, #34A853 10%, transparent 20%); opacity: 0.2; animation: move 10s infinite linear; }
+        @keyframes move { from { transform: translate(-50%, -50%) rotate(0deg); } to { transform: translate(-50%, -50%) rotate(360deg); } }
+
+        /* हिलता हुआ स्टार्ट बटन */
+        .start-btn { margin-top: 20%; padding: 20px 50px; font-size: 30px; border-radius: 50px; background: #EA4335; color: #fff; border: none; animation: shake 2s infinite; cursor: pointer; }
+        @keyframes shake { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.1); } }
+    </style>
+</head>
+<body>
+    <div class="wave"></div>
+    <h1>GXPLCP WORLD</h1>
+    <p>195 Countries | 8000 Languages</p>
+    <button class="start-btn">START</button>
+</body>
+</html>
